@@ -1,0 +1,17 @@
+/*Take out the comments around each rule.
+
+Try changing the display property*/
+
+body{
+	display:table;
+}
+     
+div{
+       width: 30%;
+       height: 100px;
+       margin:20px;
+       display:table-cell;
+/* 		   display: inline-block; */
+		   background-color: #ff00ff;
+/*         overflow:scroll; */
+}
